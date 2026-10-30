@@ -1,0 +1,6 @@
+interface:
+  display_name: "QBlade 水轮机设计"
+  short_description: "QBlade 水轮机选型、低雷诺数极曲线、原生优化、仿真核查与几何导出"
+  default_prompt: "使用 $qblade-mhk-windows，根据 brief 核查转子选型、极曲线和原生优化，并遵守当前阶段验收范围。"
+policy:
+  allow_implicit_invocation: true
